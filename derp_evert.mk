@@ -15,6 +15,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common derpfest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+DERP_BUILDTYPE := Official
+TARGET_NOT_USES_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Device identifiers
 PRODUCT_DEVICE := evert
 PRODUCT_NAME := derp_evert
