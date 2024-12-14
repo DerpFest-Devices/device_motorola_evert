@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_evert.mk
+    $(LOCAL_DIR)/derp_evert.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_evert-eng \
+    derp_evert-user \
+    derp_evert-userdebug
